@@ -2,7 +2,237 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 /*Nikita*/
+/*section*/
 
+.cover-11{
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*header*/
+
+.header-menu {
+    width: 1440px;
+    height: 96px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+/*top-menu*/
+.top-menu {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*logo*/
+.logo{
+    margin-left: 135px;
+}
+.logo a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+/*nav-menu*/
+.nav-menu {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 33px;
+}
+.nav-menu li a{
+    position: relative;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.search{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+/*contact-us */
+.contact-us{
+    width: 141px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin-right: 135px;
+}
+.contact-us a{
+    padding: 8px 14.5px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+
+/*animation*/
+
+/*animation-bottom*/
+.animation-bottom::before{
+    content: '';
+    border-bottom: 1px solid #333333;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    transition: all 1s ease;
+}
+.animation-bottom:hover::before{
+    width: 100%;
+    transition: all 1s ease;
+}
+/*animation-us*/
+.animation-us{
+    color: #FD5545;
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+.animation-us:hover{
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    color: #FFFFFF;
+}
+.animation-us{
+    transition: all 1s ease;
+}
+/*/header*/
+
+/*container-top*/
+
+.container-top {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+/*left-part-top*/
+
+.left-part-top {
+    width: 670px;
+    margin-top: 128px;
+    margin-left: 135px;
+    position: absolute;
+}
+.left-part-top span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.left-part-top h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #333333;
+}
+.left-part-top p{
+    width: 470px;
+    margin-top: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+/*button-top*/
+.button-top {
+    margin-top: 51px;
+}
+.button-top a{
+    padding: 14px 47px 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+/*links-top*/
+.links-top {
+    width: 103px;
+    margin-top: 154px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.links-top a{
+    padding: 9px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+/*animation*/
+
+/*animation-br*/
+.animation-br{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.animation-br:hover{
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    color: #FFFFFF;
+    transition: all 1s ease;
+}
+
+/*animation-more*/
+.animation-more {
+    background-color: #FD5545;
+    color: #FFFFFF;
+    border: 1px solid #FD5545;
+    border-radius: 3px;
+}
+.animation-more:hover{
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    color: #FD5545;
+    transition: all 1s ease;
+}
+
+/*/left-part-top*/
+
+.right-part-top img {
+    position: relative;
+    z-index: -1;
+    top: -1270px;
+    left: 835px;
+}
+.gray-border {
+    width: 1266px;
+    height: 1266px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #E9E9E9;
+    position: relative;
+    top: -185px;
+    left: 760px;
+}
+
+/*/container-top*/
 /*/Nikita*/
 
 /*Альона*/
