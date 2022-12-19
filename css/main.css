@@ -320,3 +320,149 @@ body{
   /*end of animation*/
   
 /*/Альона*/
+
+/*Игор*/
+.main_section{
+    width: 1440px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.contact_section_cta2{
+    width: 239px;
+    margin: 86px 163px 87px 135px;
+}
+
+.adress_and_contact h1{
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+}
+
+.adress_and_contact p{
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.us_contact h1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.us_contact{
+    margin-top: 80px;
+}
+
+.us_contact h2{
+    margin-top: 4px;
+}
+
+.us_contact p{
+    margin-top: 8px;
+}
+
+.mass_pic  {
+    width: 159px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.form_section_cta2{
+    width: 770px;
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+}
+.form_search{
+    display: flex;
+    gap: 30px;
+}
+.form_search input{
+    width: 370px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: 15px;
+}
+.form_search-1{
+    display: flex;
+}
+
+.form_section_cta2{
+    width: 770px;
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_search input{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.form_search_1 input{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.img_link a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD5545;
+    margin-left: 9px;
+}
+
+.send-message{
+    width: 170px;
+    height: 48px;
+    background-color: #FD5545;
+    border: none;
+    border-radius: 5%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.form_search_1 input{
+    width: 750px;
+    height: 48px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: 15px;
+    
+}
+
+.form_search_1 .message_form{
+    height: 96px;
+    margin-top: 32px;
+}
+
+.form_search_1 .phnnumber_form{
+    margin-top: 43px;
+}
+
+.img_link{
+    margin-top: 46px;
+}
+
+.send-message{
+    position: absolute;
+    left: 1186px;
+    top: 405px;
+}
+/*/Игор*/
